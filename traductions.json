@@ -12,6 +12,10 @@
                 {
                     "link": "https://github.com/jesus-ameller",
                     "icon": "<i class='bi bi-github'></i>"
+                },
+                {
+                    "link": "mailto:jesusameller2004@gmail.com",
+                    "icon": "<i class='bi bi-envelope-at-fill'></i>"
                 }
             ]
         },
@@ -145,7 +149,7 @@
             ]
         }
     },
-    "ca": {
+    "es-ca": {
         "about": {
             "greeting": "<span>Hola</span>, Sóc en Jesús👋. Un <strong>desarrollador full stack</strong>."
         },
@@ -158,6 +162,10 @@
                 {
                     "link": "https://github.com/jesus-ameller",
                     "icon": "<i class='bi bi-github'></i>"
+                },
+                {
+                    "link": "mailto:jesusameller2004@gmail.com",
+                    "icon": "<i class='bi bi-envelope-at-fill'></i>"
                 }
             ]
         },
@@ -179,11 +187,11 @@
                     "link": "",
                     "status": {
                         "caption": "En Progrés",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 },
@@ -194,11 +202,11 @@
                     "link": "",
                     "status": {
                         "caption": "En Progrés",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 }
@@ -304,6 +312,10 @@
                 {
                     "link": "https://github.com/jesus-ameller",
                     "icon": "<i class='bi bi-github'></i>"
+                },
+                {
+                    "link": "mailto:jesusameller2004@gmail.com",
+                    "icon": "<i class='bi bi-envelope-at-fill'></i>"
                 }
             ]
         },
@@ -312,7 +324,7 @@
                 "aboutMe": "About Me",
                 "workExperience": "Laboral Experience",
                 "academicBackground": "Academic Experience",
-                "projects": "Proejcts",
+                "projects": "Projects",
                 "contact": "Contact"
             }
         },
@@ -325,11 +337,11 @@
                     "link": "",
                     "status": {
                         "caption": "In Progress",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 },
@@ -340,11 +352,11 @@
                     "link": "",
                     "status": {
                         "caption": "In Progress",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 }
