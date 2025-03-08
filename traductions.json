@@ -1,6 +1,5 @@
 {
     "es": {
-        "title": "Jesús Ameller - Portfolio",
         "about": {
             "greeting": "<span>Hola</span>, Soy Jesús👋. Un <strong>desarrollador full stack</strong>."
         },
@@ -30,15 +29,15 @@
                 {
                     "imageSrc": "/red_pokeball.png",
                     "title": "Fuego Hispano",
-                    "description": "Juego HTML5 combinando JS nativo con .NET",
+                    "description": "Juego HTML5 con JS nativo y .NET",
                     "link": "",
                     "status": {
                         "caption": "En Progreso",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 },
@@ -49,11 +48,11 @@
                     "link": "",
                     "status": {
                         "caption": "En Progreso",
-                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "icons": ["bi bi-clock-history"],
                         "class": "in-progress"
                     },
                     "technologies": {
-                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "icons": ["bi bi-filetype-js", "bi bi-filetype-cs"],
                         "class": "technologies-icons"
                     }
                 }
@@ -79,11 +78,11 @@
                         },
                         {
                             "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
+                            "link": "https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/overview"
                         },
                         {
                             "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "link": "https://developer.mozilla.org/es-es/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
                         }
                     ]
                 },
@@ -108,7 +107,7 @@
                     "img": "/vidalibarraquer_logo.png",
                     "position": "Grado Superior DAM",
                     "duration": "Septiembre 2022 - Mayo 2024",
-                    "place": "Tarragona, Spain",
+                    "place": "Tarragona, España",
                     "link": "",
                     "skills": [
                         {
@@ -129,25 +128,17 @@
                     "title": "IES Biel Marti",
                     "img": "/iesbielmarti_logo.png",
                     "position": "Grado Medio SMX",
-                    "duration": "March 2022 - May 2023",
-                    "place": "Menorca, Spain",
+                    "duration": "Septiembre 2020 - Junio 2022",
+                    "place": "Menorca, España",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
+                            "name": "Administración de sistemas",
+                            "link": "https://es.wikipedia.org/wiki/Administrador_de_sistemas"
                         },
                         {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
-                        },
-                        {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": "Windows Server",
+                            "link": "https://learn.microsoft.com/es-es/windows-server/get-started/get-started-with-windows-server"
                         }
                     ]
                 }
@@ -156,12 +147,12 @@
     },
     "ca": {
         "about": {
-            "greeting": "<span>Hi</span>, I'm Jesús👋. A <strong>full stack developer</strong>."
+            "greeting": "<span>Hola</span>, Sóc en Jesús👋. Un <strong>desarrollador full stack</strong>."
         },
         "contact": {
             "links": [
                 {
-                    "link": "https://www.linkedin.com/in/jesus-ameller/'",
+                    "link": "https://www.linkedin.com/in/jesus-ameller/",
                     "icon": "<i class='bi bi-linkedin'></i>"
                 },
                 {
@@ -172,35 +163,44 @@
         },
         "navbar": {
             "traductions": {
-                "aboutMe": "About Me",
-                "workExperience": "Work Experience",
-                "academicBackground": "Academic Background",
-                "projects": "Projects",
-                "contact": "contact"
+                "aboutMe": "Sobre jo",
+                "workExperience": "Experiència Laboral",
+                "academicBackground": "Experiencia Acadèmica",
+                "projects": "Projectes",
+                "contact": "Contacte"
             }
         },
         "projects": {
             "projects": [
                 {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "Done"
+                    "imageSrc": "/red_pokeball.png",
+                    "title": "Foc Hispà",
+                    "description": "Joc HTML5 amb JS natiu y .NET",
+                    "link": "",
+                    "status": {
+                        "caption": "En Progrés",
+                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "class": "in-progress"
+                    },
+                    "technologies": {
+                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "class": "technologies-icons"
+                    }
                 },
                 {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "In Progress"
-                },
-                {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "Beta"
+                    "imageSrc": "/lock-fill.png",
+                    "title": "Administrador de contrasenyes",
+                    "description": "Aplicació local per gestionar les contrasenyes",
+                    "link": "",
+                    "status": {
+                        "caption": "En Progrés",
+                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "class": "in-progress"
+                    },
+                    "technologies": {
+                        "icon": "<i class='bi bi-filetype-cs'></i>",
+                        "class": "technologies-icons"
+                    }
                 }
             ]
         },
@@ -209,10 +209,10 @@
                 {
                     "title": "Ten Solutions",
                     "img": "/tensolutions_logo.png",
-                    "position": "Full Stack Developer",
-                    "duration": "May 2023 - Present",
-                    "place": "Tarragona, Spain",
-                    "link": "",
+                    "position": "Desarrollador Full Stack",
+                    "duration": "Maig 2023 - Actualitat",
+                    "place": "Tarragona, Espanya",
+                    "link": "https://www.linkedin.com/company/ten-solutions-software-consulting-s.l./",
                     "skills": [
                         {
                             "name": "Microsoft Graph",
@@ -224,91 +224,67 @@
                         },
                         {
                             "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
+                            "link": "https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/overview"
                         },
                         {
                             "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "link": "https://developer.mozilla.org/es/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
                         }
                     ]
                 },
                 {
                     "title": "MenorcaLab",
                     "img": "/menorcalab_logo.png",
-                    "position": "IT technician",
-                    "duration": "March 2022 - May 2023",
-                    "place": "Menorca, Spain",
+                    "position": "Técnic Informàtic",
+                    "duration": "Març 2022 - Maig 2023",
+                    "place": "Menorca, Espanya",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
-                        },
-                        {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
-                        },
-                        {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": "Administració de sistemas",
+                            "link": "https://es.wikipedia.org/wiki/Administrador_de_sistemas"
                         }
                     ]
                 }
             ],
             "studies": [
                 {
-                    "title": "Ten Solutions",
-                    "img": "/tensolutions_logo.png",
-                    "position": "Full Stack Developer",
-                    "duration": "May 2023 - Present",
-                    "place": "Tarragona, Spain",
+                    "title": "Vidal i Barraquer",
+                    "img": "/vidalibarraquer_logo.png",
+                    "position": "Grau Superior DAM",
+                    "duration": "Setembre 2022 - Maig 2024",
+                    "place": "Tarragona, Espanya",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
+                            "name": "Java",
+                            "link": "https://dev.java/learn/"
                         },
                         {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
+                            "name": "Android Studio",
+                            "link": "https://developer.android.com/studio/intro?hl=es-419"
                         },
                         {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": ".NET Framework",
+                            "link": "https://learn.microsoft.com/es-es/dotnet/framework/get-started/overview"
                         }
                     ]
                 },
                 {
-                    "title": "MenorcaLab",
-                    "img": "/menorcalab_logo.png",
-                    "position": "IT technician",
-                    "duration": "March 2022 - May 2023",
-                    "place": "Menorca, Spain",
+                    "title": "IES Biel Marti",
+                    "img": "/iesbielmarti_logo.png",
+                    "position": "Grau Mitjà SMX",
+                    "duration": "Setembre 2020 - Juny 2022",
+                    "place": "Menorca, Espanya",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
+                            "name": "Administració de sistemas",
                             "link": "https://ca.wikipedia.org/wiki/Administrador_de_sistemes"
                         },
                         {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
-                        },
-                        {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": "Windows Server",
+                            "link": "https://learn.microsoft.com/es-es/windows-server/get-started/get-started-with-windows-server"
                         }
                     ]
                 }
@@ -317,7 +293,7 @@
     },
     "en": {
         "about": {
-            "greeting": "<span>Hi</span>, I'm Jesús👋. A <strong>full stack developer</strong>."
+            "greeting": "<span>Hello</span>, I am Jesús👋. A <strong>full stack developer</strong>."
         },
         "contact": {
             "links": [
@@ -334,34 +310,43 @@
         "navbar": {
             "traductions": {
                 "aboutMe": "About Me",
-                "workExperience": "Work Experience",
-                "academicBackground": "Academic Background",
-                "projects": "Projects",
+                "workExperience": "Laboral Experience",
+                "academicBackground": "Academic Experience",
+                "projects": "Proejcts",
                 "contact": "Contact"
             }
         },
         "projects": {
             "projects": [
                 {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "Done"
+                    "imageSrc": "/red_pokeball.png",
+                    "title": "Spanish Fire",
+                    "description": "HTML5 game with native JS and .NET",
+                    "link": "",
+                    "status": {
+                        "caption": "In Progress",
+                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "class": "in-progress"
+                    },
+                    "technologies": {
+                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "class": "technologies-icons"
+                    }
                 },
                 {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "In Progress"
-                },
-                {
-                    "imageSrc": "/tensolutions_logo.png",
-                    "title": "Project 1",
-                    "description": "Project 1",
-                    "link": "https://tensolutions.es/",
-                    "status": "Beta"
+                    "imageSrc": "/lock-fill.png",
+                    "title": "Passwords Manager",
+                    "description": "Local application for password management",
+                    "link": "",
+                    "status": {
+                        "caption": "In Progress",
+                        "icon": "<i class='bi bi-clock-history'></i>",
+                        "class": "in-progress"
+                    },
+                    "technologies": {
+                        "icon": "<i class='bi bi-filetype-js'></i><i class='bi bi-filetype-cs'></i>",
+                        "class": "technologies-icons"
+                    }
                 }
             ]
         },
@@ -373,11 +358,11 @@
                     "position": "Full Stack Developer",
                     "duration": "May 2023 - Present",
                     "place": "Tarragona, Spain",
-                    "link": "",
+                    "link": "https://www.linkedin.com/company/ten-solutions-software-consulting-s.l./",
                     "skills": [
                         {
                             "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
+                            "link": "https://learn.microsoft.com/en-us/graph/overview"
                         },
                         {
                             "name": "Angular",
@@ -396,80 +381,56 @@
                 {
                     "title": "MenorcaLab",
                     "img": "/menorcalab_logo.png",
-                    "position": "IT technician",
+                    "position": "IT Technician",
                     "duration": "March 2022 - May 2023",
                     "place": "Menorca, Spain",
                     "link": "",
                     "skills": [
                         {
-                            "name": "System Administrator",
+                            "name": "System Administration",
                             "link": "https://en.wikipedia.org/wiki/System_administrator"
-                        },
-                        {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
-                        },
-                        {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
                         }
                     ]
                 }
             ],
             "studies": [
                 {
-                    "title": "Ten Solutions",
-                    "img": "/tensolutions_logo.png",
-                    "position": "Full Stack Developer",
-                    "duration": "May 2023 - Present",
+                    "title": "Vidal i Barraquer",
+                    "img": "/vidalibarraquer_logo.png",
+                    "position": "Superior Grade DAM",
+                    "duration": "September 2022 - May 2024",
                     "place": "Tarragona, Spain",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
+                            "name": "Java",
+                            "link": "https://dev.java/learn/"
                         },
                         {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
+                            "name": "Android Studio",
+                            "link": "https://developer.android.com/studio/intro"
                         },
                         {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": ".NET Framework",
+                            "link": "https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview"
                         }
                     ]
                 },
                 {
-                    "title": "MenorcaLab",
-                    "img": "/menorcalab_logo.png",
-                    "position": "IT technician",
-                    "duration": "March 2022 - May 2023",
+                    "title": "IES Biel Marti",
+                    "img": "/iesbielmarti_logo.png",
+                    "position": "Medium Grade SMX",
+                    "duration": "September 2020 - June 2022",
                     "place": "Menorca, Spain",
                     "link": "",
                     "skills": [
                         {
-                            "name": "Microsoft Graph",
-                            "link": "https://learn.microsoft.com/es-es/graph/overview"
+                            "name": "System Administration",
+                            "link": "https://en.wikipedia.org/wiki/System_administrator"
                         },
                         {
-                            "name": "Angular",
-                            "link": "https://angular.dev/overview"
-                        },
-                        {
-                            "name": ".NET",
-                            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"
-                        },
-                        {
-                            "name": "Web Services API",
-                            "link": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+                            "name": "Windows Server",
+                            "link": "https://learn.microsoft.com/en-us/windows-server/get-started/get-started-with-windows-server"
                         }
                     ]
                 }
